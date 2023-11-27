@@ -1,0 +1,14 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  token:
+    description: 'Github token'
+    required: true
+outputs:
+  time:
+    description: 'Time of build'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.token }}

@@ -1,0 +1,83 @@
+.App {
+    text-align: center;
+    background-color: #1F1F1F;
+    min-height: 100vh;
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.App h1 {
+    margin: 0;
+    padding-top: 4rem;
+}
+
+.NastyMenu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    cursor: pointer;
+}
+
+.NastyMenu li {
+    margin: 0 2rem;
+}
+
+.NastyMenu li:hover {
+    font-weight: bold;
+}
+
+.NastyMenu .active {
+    border-bottom: 1px dashed white;
+}
+
+.github{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dashed white;
+}
+
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.toncliInfo {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.toncliRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed;
+    font-size: 1.2rem;
+}
+
+.toncliRow:first-child {
+
+}
+
+.toncliRow div:nth-child(2) {
+    width: 40vw;
+    overflow: hidden;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.largeText {
+    font-size: 0.6rem;
+}

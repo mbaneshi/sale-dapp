@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Publish dApp
+    steps:
+      - name: Build & run tests & publish
+        uses: disintar/sale-dapp@master
+        with:
+          token: ${{ secrets.GH_TOKEN }}
